@@ -87,7 +87,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Listening to chill with manish : http://localhost:${port}`);
+    console.log(`🔗 Listening to music requests: http://localhost:${port}`);
 });
 
 printWatermark();
